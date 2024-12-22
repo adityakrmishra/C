@@ -1,0 +1,37 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+#define MAX_POINTS 100
+#define MAX_CLUSTERS 10
+
+void kMeansClustering(float data[][2], int n, int k, float centroids[][2], int labels[]) {
+    // Initialize centroids
+    // ...
+
+    // K-means clustering algorithm
+    // ...
+
+    // Update centroids
+    // ...
+
+    // Assign labels
+    // ...
+}
+
+int main() {
+    float data[MAX_POINTS][2];
+    float centroids[MAX_CLUSTERS][2];
+    int labels[MAX_POINTS];
+    int n, k;
+
+    // Initialize data points
+    // ...
+
+    kMeansClustering(data, n, k, centroids, labels);
+
+    // Display results
+    // ...
+
+    return 0;
+}
